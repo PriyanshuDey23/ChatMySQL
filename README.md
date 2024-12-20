@@ -54,25 +54,7 @@
    - Type a question about your database in the chat input field (e.g., "What are the top 5 customers by revenue?").
    - The app will generate a SQL query, execute it on the connected database, and provide a response.
 
-## Example
 
-### User Input
-> "What is the total revenue for each product category?"
-
-### Generated SQL Query
-```sql
-SELECT `category_name`, SUM(`revenue`) AS `total_revenue`
-FROM `products`
-GROUP BY `category_name`
-ORDER BY `total_revenue` DESC;
-```
-
-### Response
-> "The total revenue for each product category is displayed below, sorted in descending order."
-
-## Error Handling
-- **Connection Errors**: Displays a user-friendly error message if the database connection fails.
-- **SQL Errors**: Catches and explains SQL syntax errors or issues with reserved keywords.
 
 ## Technologies Used
 - **Streamlit**: Interactive web interface
