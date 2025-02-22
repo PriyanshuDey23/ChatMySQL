@@ -1,5 +1,7 @@
 # Chat with MySQL
 
+![](output.png)
+
 ## Overview
 **Chat with MySQL** is a Streamlit-based application that enables users to interact with their MySQL database using natural language queries. This tool leverages advanced language models to translate user questions into SQL queries, execute them on the connected database, and provide clear, natural language responses based on the query results.
 
